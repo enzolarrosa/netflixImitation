@@ -1,0 +1,246 @@
+.conteiner {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.59) 60%, rgba(0, 0, 0, 0.794) 90%),url('https://assets.nflxext.com/ffe/siteui/vlv3/42df4e1f-bef6-499e-87ff-c990584de314/6774b347-3c28-4b13-bdad-47ce8af03ba7/AR-es-20230904-popsignuptwoweeks-perspective_alpha_website_medium.jpg');
+    background-size: 125%;
+    background-position: center 65%;
+}
+
+.mainConteiner {
+    width: 100%;
+    height: 85.7vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.mainConteiner h1 {
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.pMain {
+    margin-top: 16px;
+    font-size: 1.52rem;
+    font-weight: 400;
+}
+
+.sectionOne{
+    width: 100%;
+    height: 85vh;
+    background-color: black;
+    border-top: 8px solid rgb(48, 48, 48);
+    display: flex;
+}
+
+.infoOne{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.infoOne p{
+    margin-top: 2%;
+    text-align: start;
+    margin-left: 21%;
+    font-size: 1.7rem;
+}
+
+.titleOne {
+    color: white;
+    font-size: 2.9rem;
+    font-weight: 1000;
+}
+
+.animOne {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.animOne img {
+    width: 80%;
+    height: 80%;
+    z-index: 2;
+}
+
+.divVideoOne{
+    width: 40%;
+    height: 40%;
+    min-width:  59%;
+    min-height: 60%;
+    position: absolute;
+    overflow: hidden;
+    top: 26%;
+    z-index: 1;
+    left:20%;
+}
+
+.animTwo {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.animTwo img {
+    width: 80%;
+    height: 80%;
+}
+
+.divVideoTwo {
+    width: 45%;
+    height: 20%;
+    border: 1px solid gray;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    background-color: black;
+    top: 65%;
+    left: 37%;
+}
+
+.divStranger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 100%;
+}
+
+.divStranger img {
+    width: 90%;
+    height: 80%;
+}
+
+.divTitleStranger {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;
+}
+
+.divTitleStranger p {
+    font-weight: 600;
+    color: #1565c0 ;
+}
+
+.titleStranger {
+    width: 100%;
+    color: white;
+    font-weight: bold;
+}
+
+.divDowloadStranger {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+    width: 10%;
+}
+
+.infoTwo {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 3%;
+}
+
+.titleTwo {
+    width: 70%;
+    text-align: start;
+    color: white;
+    font-size: 2.9rem;
+    font-weight: 1000;
+}
+
+.infoTwo p {
+    text-align: start;
+    width: 70%;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.titleThree {
+    color: white;
+    font-size: 2.9rem;
+    font-weight: 1000;
+    width: 60%;
+    text-align: start;
+}
+
+.divVideoThree {
+    width: 50%;
+    height: 40%;
+    min-width: 30%;
+    min-height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 17%;
+    overflow: hidden;
+    left: 25%;
+}
+
+.infoFour {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleFour {
+    color: white;
+    font-size: 2.9rem;
+    font-weight: 1000;
+    width: 70%;
+    text-align: start;
+}
+
+.infoFour p{
+    width:70%;
+    color: white;
+    font-size: 1.4rem;
+    text-align: start;
+    font-weight: 400;
+}
+
+.sectionTwo {
+    width: 100%;
+    background-color: black;
+    border-top: 8px solid rgb(48, 48, 48);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    padding-bottom: 40px;
+}
+
+.sectionTwo h2 {
+    margin-top: 60px;
+    color: white;
+    font-size: 2.9rem;
+    font-weight: 1000;
+}

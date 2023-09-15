@@ -7,10 +7,67 @@
   pointer-events: none;
 }
 
+.ReactCollapse--collapse {
+  transition: height 500ms;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.labelEmail{
+  color: white;
+  position: absolute;
+  z-index: 2;
+  font-size: 1rem;
+  top: 28%;
+  left: 15px;
+  transition: 0.1s ease-in-out;
+}
+
+.email {
+  transition: 0.1s ease-in-out;
+  color: white;
+  position: absolute;
+  z-index: 2;
+  font-size: .8rem;
+  top: 15%;
+  left: 15px;
+}
+
+.options{
+  display: none;
+  position: absolute;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 70%;
+  left: 0;
+  top: 105%;
+}
+
+.options button{
+  border-radius: 2px;
+  border: 1px solid grey;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  width: 100%;
+  color: rgb(0, 0, 0);
+  height: 100%;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.options button:hover {
+  color: white;
+  background-color: rgb(78, 108, 190);
+}
+
+.divOptions{
+   display: flex;
 }
 
 .App-header {
