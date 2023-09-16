@@ -1,0 +1,52 @@
+.conteiner{
+    width: 100%;
+    height: 60vh;
+    background-color: black;
+    border-top: 8px solid rgb(48, 48, 48);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.divPreguntas {
+    width: 80%;
+    height: 20%;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    text-align: center;
+}
+
+.divPreguntas p , .divPreguntas p a{
+    font-size: 1.1rem;
+    color: white;
+}
+
+.divEnlaces {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ul {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.ul li {
+    text-align: start;
+    width: 25%;
+    color: white;
+    list-style: none;
+    margin-top: 15px;
+}
+
+.ul li a {
+    color: white;
+}

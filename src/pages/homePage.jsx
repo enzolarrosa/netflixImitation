@@ -11,6 +11,7 @@ import strangerImg from '../img/stranger.png'
 import niñosImg from '../img/niños.png'
 import {FcDownload} from 'react-icons/fc'
 import Accordion from "../components/accordion";
+import Footer from '../components/footer'
 
 export default function HomePage(){
 
@@ -83,6 +84,7 @@ export default function HomePage(){
                 <Accordion/>
                 <Membresia/>
             </div>
+            <Footer/>
         </div>
     )
 }
