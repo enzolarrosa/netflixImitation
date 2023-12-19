@@ -36,8 +36,8 @@
     align-items: center;
     justify-content: center;
     gap: 6px;
-    width: 127px;
-    height: 1.7rem;
+    width: 40%;
+    height: 39%;
     position: relative;
     background-color: rgba(0, 0, 0, 0.564);
     border-radius: 4px;
@@ -55,8 +55,8 @@
 }
 
 .btnLogin {
-    width: 120px;
-    height: 34px;
+    width: 40%;
+    height: 39%;
     background-color: #c11119;
     color: white;
     font-weight: 550;
@@ -68,3 +68,16 @@
 }
 
 
+@media only screen and (max-width: 1006px) {
+    .divLogin {
+        width: 50%;
+
+    }
+    .divLogo{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+}

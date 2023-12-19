@@ -6,12 +6,16 @@ import {MdArrowDropDown} from 'react-icons/md'
 
 export default function NavLogin (){
 
-    const [idioma, setIdioma] = useState({
+    interface Ilang {
+        lang: string
+    }
+
+    const [idioma, setIdioma] = useState <Ilang>({
          lang: 'Español'
         }
     )
 
-    const select = (e) => {
+    const select = (e: string) => {
         setIdioma({
             lang: e
         })
@@ -19,7 +23,9 @@ export default function NavLogin (){
 
     const language = () => {
         const divSelect = document.querySelector('.options')
-        divSelect.classList.toggle('divOptions')
+        if(divSelect){
+            divSelect.classList.toggle('divOptions')
+        }
     }
 
     return(

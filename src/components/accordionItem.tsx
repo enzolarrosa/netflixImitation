@@ -4,11 +4,11 @@ import {AiOutlinePlus} from 'react-icons/ai'
 import {RxCross2} from 'react-icons/rx'
 import a from '../style/accordion.module.css'
 
-export default function AccordionItem({open,toggle,title,desc}){
+export default function AccordionItem({open,toggle,title,desc}: {open:boolean,toggle:Function,title: string,desc: string}){
 
     return(
         <div className={a.divItem}>
-            <div className={a.item} onClick={toggle}>
+            <div className={a.item} onClick={() => toggle()}>
                 <h3>{title}</h3>
                 <div className={a.icon}>
                 {open? <RxCross2/> : <AiOutlinePlus/>}
